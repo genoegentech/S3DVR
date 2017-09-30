@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3DVR_Biller_WinForms", "S3DVR_Biller_WinForms\S3DVR_Biller_WinForms.csproj", "{84D26D96-FD86-410D-AD38-91640A5CD4F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3DVR_Biller_DAL", "S3DVR_Biller_DAL\S3DVR_Biller_DAL.csproj", "{A2B59138-24D0-4FA2-B766-16C51208ED1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3DVR_Biller_BL", "S3DVR_Biller_BL\S3DVR_Biller_BL.csproj", "{2403C604-F606-4DBD-9652-5C75DC664B43}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "S3DVR_Biller_DB", "S3DVR_Biller_DB\S3DVR_Biller_DB.sqlproj", "{4C90BEFB-1F55-4D4A-8605-65BF0D16F361}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,12 @@ Global
 		{2403C604-F606-4DBD-9652-5C75DC664B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2403C604-F606-4DBD-9652-5C75DC664B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2403C604-F606-4DBD-9652-5C75DC664B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C90BEFB-1F55-4D4A-8605-65BF0D16F361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C90BEFB-1F55-4D4A-8605-65BF0D16F361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C90BEFB-1F55-4D4A-8605-65BF0D16F361}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C90BEFB-1F55-4D4A-8605-65BF0D16F361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C90BEFB-1F55-4D4A-8605-65BF0D16F361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C90BEFB-1F55-4D4A-8605-65BF0D16F361}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
