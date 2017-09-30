@@ -60,4 +60,21 @@
     <Folder Include="Ver.1.0.0.0" />
     <Folder Include="Ver.1.0.0.0\1.Table" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Ver.1.0.0.0\1.Table\AcCategory.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\AcGroups.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\AcHeads.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\CompoundUnits.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\LookupDetails.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\LookupMaster.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\MainStock.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\OpeningStock.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\StockCategory.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\StockGroupCategory.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\StockItemAlternativeUnitCodes.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\StockItems.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\Units.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\UserGroups.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\Users.sql" />
+  </ItemGroup>
 </Project>
