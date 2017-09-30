@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace S3DVR_Biller_WinForms
 {
-    public partial class Login : Form
+    public partial class Login : S3DVRFormBase
     {
         public Login()
         {
             InitializeComponent();
-        }
-
-        private void Login_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -30,8 +25,8 @@ namespace S3DVR_Biller_WinForms
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
+            ApplicationExit();
+        }       
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -52,6 +47,22 @@ namespace S3DVR_Biller_WinForms
             this.Hide();
             MDIHomeForm mdiParentWindow = new MDIHomeForm();
             mdiParentWindow.Show();
+        }
+
+        private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Convert.ToInt32(e.KeyChar) == 13)
+            {
+                txtPassword.Focus();
+            }
+        }
+
+        private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Convert.ToInt32(e.KeyChar) == 13)
+            {
+                btnLogin.Focus();
+            }
         }
     }
 }

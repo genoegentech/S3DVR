@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace S3DVR_Biller_WinForms
 {
-    public partial class MDIHomeForm : Form
+    public partial class MDIHomeForm : S3DVRFormBase
     {
         public MDIHomeForm()
         {
             InitializeComponent();
+        }
+
+        private void MDIHomeForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Confirm("Are you sure to exit?") == System.Windows.Forms.DialogResult.Yes)
+            {
+                e.Cancel = false;
+                ApplicationExit();
+            }
+            else
+                e.Cancel = true;
         }
     }
 }

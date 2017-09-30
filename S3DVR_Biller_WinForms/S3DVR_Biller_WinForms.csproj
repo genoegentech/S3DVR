@@ -71,6 +71,10 @@
     <Compile Include="UserControls\TextInputControl.Designer.cs">
       <DependentUpon>TextInputControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utilities\General.cs" />
+    <Compile Include="Utilities\S3DVRFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
