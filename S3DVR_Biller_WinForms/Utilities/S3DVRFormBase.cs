@@ -25,5 +25,33 @@ namespace S3DVR_Biller_WinForms
         {
             Environment.Exit(0);
         }
+        public void ShowError(string message)
+        {
+            ShowError(message, "S3DVR-Biller");
+        }
+        public void ShowError(string message, string caption)
+        {
+            MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+        }
+        public void ShowError(Exception ex)
+        {
+            string errorMessage = ex.Message;
+            if (ex.InnerException != null)
+            {
+                if (!string.IsNullOrEmpty(ex.InnerException.Message))
+                {
+                    errorMessage += Environment.NewLine + ex.InnerException.Message;
+                }
+            }
+            ShowError(errorMessage);
+        }
+        public void ShowSuccessMessage(string message)
+        {
+            ShowSuccessMessage(message, "S3DVR-Biller");
+        }
+        public void ShowSuccessMessage(string message, string caption)
+        {
+            MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+        }
     }
 }

@@ -51,6 +51,18 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Masters\UnitsMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\UnitsMaster.Designer.cs">
+      <DependentUpon>UnitsMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\UnitsMastersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\UnitsMastersList.Designer.cs">
+      <DependentUpon>UnitsMastersList.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIHomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +89,12 @@
     </Compile>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\UnitsMaster.resx">
+      <DependentUpon>UnitsMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\UnitsMastersList.resx">
+      <DependentUpon>UnitsMastersList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIHomeForm.resx">
       <DependentUpon>MDIHomeForm.cs</DependentUpon>

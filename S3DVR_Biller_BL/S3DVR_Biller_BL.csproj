@@ -39,10 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataServices\Products\UnitsService.cs" />
+    <Compile Include="General\DBDataLister.cs" />
+    <Compile Include="General\General.cs" />
+    <Compile Include="Products\Units.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataServices\" />
+    <Folder Include="DataServices\Users\" />
+    <Folder Include="Users\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\S3DVR_Biller_DAL\S3DVR_Biller_DAL.csproj">
