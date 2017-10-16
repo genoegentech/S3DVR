@@ -76,5 +76,11 @@
     <None Include="Ver.1.0.0.0\1.Table\Units.sql" />
     <None Include="Ver.1.0.0.0\1.Table\UserGroups.sql" />
     <None Include="Ver.1.0.0.0\1.Table\Users.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\Suppliers.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\CompanyProfile.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\Branches.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Ver.1.0.0.0\1.Table\Customers.sql" />
   </ItemGroup>
 </Project>
