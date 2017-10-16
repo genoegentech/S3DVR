@@ -81,6 +81,6 @@
     <None Include="Ver.1.0.0.0\1.Table\Branches.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Ver.1.0.0.0\1.Table\Customers.sql" />
+    <None Include="Ver.1.0.0.0\1.Table\Customers.sql" />
   </ItemGroup>
 </Project>
