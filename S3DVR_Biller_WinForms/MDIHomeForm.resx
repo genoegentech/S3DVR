@@ -118,6 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnRibbonUnitMaster.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AAAAAAAA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAL/mAgs/5gIY/+YCJj/mAi//5gI2v+Y
+        CO3/mAj5/5gI//+YCPP/mAje/5gIvP+YCJj/mAhq/5gIMP+YCAT/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgAAAAAAAAAAAD/mAgA/5gIAP+YCAD/mAgA/5gIB/+YCFH/mAik/5gI6v+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI8P+YCKz/mAhd/5gIDP+Y
+        CAD/mAgA/5gIAP+YCAAAAAAAAAAAAP+YCAD/mAgA/5gIM/+YCJf/mAjt/5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj0/5gIpP+YCEP/mAgB/5gIAAAAAAAAAAAA/5gIGP+YCLz/mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCNH/mAgsAAAAAAAAAAD/mAik/5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCLgAAAAAAAAAAP+YCNz/mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI1AAAAAAAAAAA/5gIzv+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAiuAAAAAAAA
+        AAD/mAiB/5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CFYAAAAAAAAAAP+YCA3/mAjg/5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAjD/5gIAQAAAAAAAAAA/5gIAP+YCDr/mAj6/5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI7v+YCB//mAgAAAAAAAAAAAD/mAgA/5gIAP+YCHf/mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP7/mAhR/5gIAP+YCAAAAAAAAAAAAP+YCAD/mAgA/5gIAf+YCLb/mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gIk/+YCAD/mAgA/5gIAAAAAAAAAAAA/5gIAP+YCAD/mAgA/5gIFP+Y
+        COX/mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCM7/mAgH/5gIAP+YCAD/mAgAAAAAAAAAAAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIPP+YCKr/mAiq/5gIqv+YCKr/mAiq/5gIqv+YCKr/mAiq/5gIqv+YCM3/mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAjz/5gIJ/+YCAD/mAgA/5gIAP+YCAAAAAAAAAAAAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAv+Y
+        CNn/mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCFv/mAgA/5gIAP+YCAD/mAgA/5gIAAAA
+        AAAAAAAA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIB/+YCBH/mAgR/5gIEf+YCBH/mAgR/5gIEf+Y
+        CBH/mAgz/5gI8P+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAif/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgAAAAAAAAAAAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgY/5gI5/+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI1/+YCAv/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAAAAAAAAAAAAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAhD/5gI/P+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCPb/mAgt/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAAAAAAAAAAAA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgd/5gIIv+YCCL/mAgi/5gIIv+YCCL/mAhE/5gI8/+YCP//mAj//5gI//+YCP//mAj//5gIaP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgAAAAAAAAAAAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAH/mAjW/5gI//+YCP//mAj//5gI//+Y
+        CKv/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAAAAAAAAAAAAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAz/mAiY/5gImf+YCJn/mAiZ/5gIvf+YCP//mAj//5gI//+Y
+        CP//mAj8/5gIGf+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAAAAAAAAAAAA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCOb/mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCOT/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgAAAAAAAAA
+        AAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIh/+YCJn/mAiZ/5gImf+Y
+        CLr/mAj//5gI//+YCP//mAj//5gI4f+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAAAAAAAAAAAAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCNb/mAj//5gI//+YCP//mAjh/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAAAAAAAAAAAA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CB7/mAgi/5gIIv+YCCL/mAhK/5gI9P+YCP//mAj//5gI//+YCOH/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgAAAAAAAAAAAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gI4f+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI4f+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAAAAAAAAAAAAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAP/mAjj/5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAjj/5gIA/+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAAAAAAAAAAAA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAhB/5gI7f+YCP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAjt/5gIQv+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgAAAAAAAAAAAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCMD/mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAjD/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAAAAAAAAAAAAP+Y
+        CAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gI0v+YCP//mAj//5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCNL/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAAAA
+        AAAAAAAA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAi7/5gI//+YCP//mAj//5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gIvv+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgAAAAAAAAAAAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCAD/mAgA/5gIAP+YCDP/mAjf/5gI//+Y
+        CP//mAj//5gI//+YCP//mAj//5gI//+YCP//mAj//5gI//+YCN//mAgz/5gIAP+YCAD/mAgA/5gIAP+Y
+        CAD/mAgA/5gIAP+YCAAAAAAA/wAA//gAAB/gAAADgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABwAAAA+AA
+        AAfgAAAP8AAAD/gAAB///gA//gAAf/4AAH//AAD//4AB///+A///wAP//+AH///gB////wf//+AH///g
+        B///wAP//4AB//+AAf//gAH//4AB//+AAf8=
+</value>
+  </data>
   <data name="office2007StartButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29m

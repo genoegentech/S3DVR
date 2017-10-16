@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager();
-            this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
-            this.styleManager2 = new DevComponents.DotNetBar.StyleManager();
             this.ribbonClientPanel1 = new DevComponents.DotNetBar.Ribbon.RibbonClientPanel();
             this.btnDeleteUnits = new DevComponents.DotNetBar.ButtonX();
             this.btnEditUnits = new DevComponents.DotNetBar.ButtonX();
@@ -42,36 +40,14 @@
             this.lblDisplayName = new System.Windows.Forms.Label();
             this.lblUnitName = new System.Windows.Forms.Label();
             this.txtUnitName = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonClientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgUnitsMastersList)).BeginInit();
             this.SuspendLayout();
             // 
             // styleManager1
             // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007VistaGlass;
-            // 
-            // ribbonControl1
-            // 
-            // 
-            // 
-            // 
-            this.ribbonControl1.BackgroundStyle.Class = "";
-            this.ribbonControl1.CaptionVisible = true;
-            this.ribbonControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
-            this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.Office2007ColorTable = DevComponents.DotNetBar.Rendering.eOffice2007ColorScheme.VistaGlass;
-            this.ribbonControl1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
-            this.ribbonControl1.Size = new System.Drawing.Size(669, 28);
-            this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonControl1.TabGroupHeight = 14;
-            this.ribbonControl1.TabIndex = 0;
-            this.ribbonControl1.Text = "ribbonControl1";
-            // 
-            // styleManager2
-            // 
-            this.styleManager2.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007VistaGlass;
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007Blue;
             // 
             // ribbonClientPanel1
             // 
@@ -157,7 +133,7 @@
             this.lblUnitsGrid.AutoSize = true;
             this.lblUnitsGrid.BackColor = System.Drawing.Color.Transparent;
             this.lblUnitsGrid.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitsGrid.ForeColor = System.Drawing.Color.White;
+            this.lblUnitsGrid.ForeColor = System.Drawing.Color.Black;
             this.lblUnitsGrid.Location = new System.Drawing.Point(12, 39);
             this.lblUnitsGrid.Name = "lblUnitsGrid";
             this.lblUnitsGrid.Size = new System.Drawing.Size(102, 13);
@@ -172,14 +148,14 @@
             this.dgUnitsMastersList.AllowUserToResizeRows = false;
             this.dgUnitsMastersList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgUnitsMastersList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgUnitsMastersList.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgUnitsMastersList.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgUnitsMastersList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgUnitsMastersList.Location = new System.Drawing.Point(12, 55);
             this.dgUnitsMastersList.MultiSelect = false;
@@ -206,7 +182,7 @@
             this.lblDisplayName.AutoSize = true;
             this.lblDisplayName.BackColor = System.Drawing.Color.Transparent;
             this.lblDisplayName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisplayName.ForeColor = System.Drawing.Color.White;
+            this.lblDisplayName.ForeColor = System.Drawing.Color.Black;
             this.lblDisplayName.Location = new System.Drawing.Point(271, 12);
             this.lblDisplayName.Name = "lblDisplayName";
             this.lblDisplayName.Size = new System.Drawing.Size(84, 13);
@@ -218,7 +194,7 @@
             this.lblUnitName.AutoSize = true;
             this.lblUnitName.BackColor = System.Drawing.Color.Transparent;
             this.lblUnitName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitName.ForeColor = System.Drawing.Color.White;
+            this.lblUnitName.ForeColor = System.Drawing.Color.Black;
             this.lblUnitName.Location = new System.Drawing.Point(12, 12);
             this.lblUnitName.Name = "lblUnitName";
             this.lblUnitName.Size = new System.Drawing.Size(39, 13);
@@ -237,6 +213,24 @@
             this.txtUnitName.TabIndex = 0;
             this.txtUnitName.TextChanged += new System.EventHandler(this.txtUnitName_TextChanged);
             // 
+            // ribbonControl1
+            // 
+            // 
+            // 
+            // 
+            this.ribbonControl1.BackgroundStyle.Class = "";
+            this.ribbonControl1.CaptionVisible = true;
+            this.ribbonControl1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
+            this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonControl1.Name = "ribbonControl1";
+            this.ribbonControl1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
+            this.ribbonControl1.Size = new System.Drawing.Size(669, 28);
+            this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonControl1.TabGroupHeight = 14;
+            this.ribbonControl1.TabIndex = 0;
+            this.ribbonControl1.Text = "ribbonControl1";
+            // 
             // UnitsMastersList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,6 +241,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimizeBox = false;
             this.Name = "UnitsMastersList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Units Masters List";
             this.Load += new System.EventHandler(this.UnitsMastersList_Load);
             this.ribbonClientPanel1.ResumeLayout(false);
@@ -260,7 +255,6 @@
 
         private DevComponents.DotNetBar.StyleManager styleManager1;
         private DevComponents.DotNetBar.RibbonControl ribbonControl1;
-        private DevComponents.DotNetBar.StyleManager styleManager2;
         private DevComponents.DotNetBar.Ribbon.RibbonClientPanel ribbonClientPanel1;
         private DevComponents.DotNetBar.Controls.TextBoxX txtUnitName;
         private System.Windows.Forms.Label lblUnitName;

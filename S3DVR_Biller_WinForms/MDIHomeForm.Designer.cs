@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDIHomeForm));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.rBarUnitMasters = new DevComponents.DotNetBar.RibbonBar();
+            this.btnRibbonUnitMaster = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.userRibbonGroup = new DevComponents.DotNetBar.RibbonBar();
             this.tabUsers = new DevComponents.DotNetBar.RibbonTabItem();
@@ -57,8 +59,8 @@
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager();
-            this.ribbonClientPanel1 = new DevComponents.DotNetBar.Ribbon.RibbonClientPanel();
             this.ribbonControl1.SuspendLayout();
+            this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +80,6 @@
             this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.Office2007ColorTable = DevComponents.DotNetBar.Rendering.eOffice2007ColorScheme.VistaGlass;
             this.ribbonControl1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.office2007StartButton1,
@@ -93,6 +94,7 @@
             // ribbonPanel2
             // 
             this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Controls.Add(this.rBarUnitMasters);
             this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ribbonPanel2.Location = new System.Drawing.Point(0, 56);
             this.ribbonPanel2.Name = "ribbonPanel2";
@@ -111,6 +113,46 @@
             // 
             this.ribbonPanel2.StyleMouseOver.Class = "";
             this.ribbonPanel2.TabIndex = 2;
+            // 
+            // rBarUnitMasters
+            // 
+            this.rBarUnitMasters.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.rBarUnitMasters.BackgroundMouseOverStyle.Class = "";
+            // 
+            // 
+            // 
+            this.rBarUnitMasters.BackgroundStyle.Class = "";
+            this.rBarUnitMasters.ContainerControlProcessDialogKey = true;
+            this.rBarUnitMasters.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnRibbonUnitMaster});
+            this.rBarUnitMasters.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.rBarUnitMasters.Location = new System.Drawing.Point(6, 3);
+            this.rBarUnitMasters.MinimumSize = new System.Drawing.Size(150, 87);
+            this.rBarUnitMasters.Name = "rBarUnitMasters";
+            this.rBarUnitMasters.Size = new System.Drawing.Size(150, 87);
+            this.rBarUnitMasters.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.rBarUnitMasters.TabIndex = 0;
+            this.rBarUnitMasters.Text = "Unit Masters";
+            // 
+            // 
+            // 
+            this.rBarUnitMasters.TitleStyle.Class = "";
+            // 
+            // 
+            // 
+            this.rBarUnitMasters.TitleStyleMouseOver.Class = "";
+            // 
+            // btnRibbonUnitMaster
+            // 
+            this.btnRibbonUnitMaster.Icon = ((System.Drawing.Icon)(resources.GetObject("btnRibbonUnitMaster.Icon")));
+            this.btnRibbonUnitMaster.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnRibbonUnitMaster.Name = "btnRibbonUnitMaster";
+            this.btnRibbonUnitMaster.SubItemsExpandWidth = 14;
+            this.btnRibbonUnitMaster.Text = "Units";
+            this.btnRibbonUnitMaster.Click += new System.EventHandler(this.btnRibbonUnitMaster_Click);
             // 
             // ribbonPanel1
             // 
@@ -374,36 +416,13 @@
             // 
             // styleManager1
             // 
-            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007VistaGlass;
-            // 
-            // ribbonClientPanel1
-            // 
-            this.ribbonClientPanel1.CanvasColor = System.Drawing.SystemColors.Control;
-            this.ribbonClientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonClientPanel1.Location = new System.Drawing.Point(0, 154);
-            this.ribbonClientPanel1.Name = "ribbonClientPanel1";
-            this.ribbonClientPanel1.Size = new System.Drawing.Size(816, 270);
-            // 
-            // 
-            // 
-            this.ribbonClientPanel1.Style.Class = "RibbonClientPanel";
-            // 
-            // 
-            // 
-            this.ribbonClientPanel1.StyleMouseDown.Class = "";
-            // 
-            // 
-            // 
-            this.ribbonClientPanel1.StyleMouseOver.Class = "";
-            this.ribbonClientPanel1.TabIndex = 1;
-            this.ribbonClientPanel1.Text = "ribbonClientPanel1";
+            this.styleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007Blue;
             // 
             // MDIHomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 424);
-            this.Controls.Add(this.ribbonClientPanel1);
             this.Controls.Add(this.ribbonControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
@@ -413,6 +432,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MDIHomeForm_FormClosing);
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
+            this.ribbonPanel2.ResumeLayout(false);
             this.ribbonPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -448,6 +468,7 @@
         private DevComponents.DotNetBar.ButtonItem buttonItem1;
         private DevComponents.DotNetBar.QatCustomizeItem qatCustomizeItem1;
         private DevComponents.DotNetBar.StyleManager styleManager1;
-        private DevComponents.DotNetBar.Ribbon.RibbonClientPanel ribbonClientPanel1;
+        private DevComponents.DotNetBar.RibbonBar rBarUnitMasters;
+        private DevComponents.DotNetBar.ButtonItem btnRibbonUnitMaster;
     }
 }

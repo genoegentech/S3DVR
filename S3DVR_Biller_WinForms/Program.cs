@@ -16,7 +16,8 @@ namespace S3DVR_Biller_WinForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new S3DVR_Biller_WinForms.Masters.UnitsMastersList());
+            //Application.Run(new S3DVR_Biller_WinForms.Masters.UnitsMastersList());
+            Application.Run(new S3DVRSplash());
         }
     }
 }

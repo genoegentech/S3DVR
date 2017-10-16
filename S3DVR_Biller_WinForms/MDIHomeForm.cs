@@ -1,4 +1,5 @@
-﻿using System;
+﻿using S3DVR_Biller_WinForms.Masters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace S3DVR_Biller_WinForms
 {
     public partial class MDIHomeForm : S3DVRFormBase
     {
+        private UnitsMastersList _unitMasterList;
         public MDIHomeForm()
         {
             InitializeComponent();
@@ -26,6 +28,25 @@ namespace S3DVR_Biller_WinForms
             }
             else
                 e.Cancel = true;
+        }
+
+        private void btnRibbonUnitMaster_Click(object sender, EventArgs e)
+        {
+            if (_unitMasterList == null)
+            {
+                _unitMasterList = new UnitsMastersList();
+                _unitMasterList.FormClosing += _unitMasterList_FormClosing;
+            }
+            _unitMasterList.StartPosition = FormStartPosition.CenterParent;
+            _unitMasterList.MdiParent = this;
+            _unitMasterList.WindowState = FormWindowState.Normal;
+            _unitMasterList.Show();
+        }
+
+        private void _unitMasterList_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            _unitMasterList.FormClosing -= _unitMasterList_FormClosing;
+            _unitMasterList = null;
         }
     }
 }
