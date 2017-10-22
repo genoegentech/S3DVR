@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace S3DVR_Biller_WinForms
 {
-    public class S3DVRFormBase : Form
+    public class S3DVRFormBase : DevComponents.DotNetBar.Office2007Form
     {
         public DialogResult Confirm(string message)
         {
