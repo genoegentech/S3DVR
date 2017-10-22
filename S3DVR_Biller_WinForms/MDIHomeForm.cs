@@ -48,5 +48,14 @@ namespace S3DVR_Biller_WinForms
             _unitMasterList.FormClosing -= _unitMasterList_FormClosing;
             _unitMasterList = null;
         }
+
+        private void buttonItem14_Click(object sender, EventArgs e)
+        {
+            MasterSample  MS= new MasterSample();
+            MS.StartPosition = FormStartPosition.CenterParent;
+            MS.MdiParent = this;
+            MS.WindowState = FormWindowState.Normal;
+            MS.Show();
+        }
     }
 }
