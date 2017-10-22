@@ -9,6 +9,8 @@ namespace S3DVR_Biller_WinForms
 {
     public class S3DVRFormBase : DevComponents.DotNetBar.Office2007Form
     {
+        private DevComponents.DotNetBar.StyleManager StyleManager1;
+    
         public DialogResult Confirm(string message)
         {
             return Confirm(message, "S3DVR-Biller");
@@ -52,6 +54,24 @@ namespace S3DVR_Biller_WinForms
         public void ShowSuccessMessage(string message, string caption)
         {
             MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+        }
+
+        private void InitializeComponent()
+        {
+            this.StyleManager1 = new DevComponents.DotNetBar.StyleManager();
+            this.SuspendLayout();
+            // 
+            // StyleManager1
+            // 
+            this.StyleManager1.ManagerStyle = DevComponents.DotNetBar.eStyle.Office2007Blue;
+            // 
+            // S3DVRFormBase
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.DoubleBuffered = true;
+            this.Name = "S3DVRFormBase";
+            this.ResumeLayout(false);
+
         }
     }
 }

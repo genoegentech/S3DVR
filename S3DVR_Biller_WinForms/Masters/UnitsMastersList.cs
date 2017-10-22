@@ -45,6 +45,8 @@ namespace S3DVR_Biller_WinForms.Masters
         private void btnNewUnits_Click(object sender, EventArgs e)
         {
             UnitsMaster frmUnitMaster = new UnitsMaster();
+            frmUnitMaster.WindowState = FormWindowState.Normal;
+            frmUnitMaster.Office2007ColorTable = DevComponents.DotNetBar.Rendering.eOffice2007ColorScheme.Blue;
             if (frmUnitMaster.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
             {
                 LoadList(txtUnitName.Text, txtDisplayName.Text);

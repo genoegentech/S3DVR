@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSaveUnit = new DevComponents.DotNetBar.ButtonX();
             this.chkIsCompound = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.txtDisplayName = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.lblCompound = new System.Windows.Forms.Label();
@@ -37,22 +36,8 @@
             this.lblDisplayName = new System.Windows.Forms.Label();
             this.lblUnitID = new System.Windows.Forms.Label();
             this.txtUnitID = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnSaveUnit = new DevComponents.DotNetBar.ButtonX();
             this.SuspendLayout();
-            // 
-            // btnSaveUnit
-            // 
-            this.btnSaveUnit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnSaveUnit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnSaveUnit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSaveUnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveUnit.Location = new System.Drawing.Point(267, 132);
-            this.btnSaveUnit.Name = "btnSaveUnit";
-            this.btnSaveUnit.Size = new System.Drawing.Size(75, 23);
-            this.btnSaveUnit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnSaveUnit.TabIndex = 5;
-            this.btnSaveUnit.Text = "Save";
-            this.btnSaveUnit.ThemeAware = true;
-            this.btnSaveUnit.Click += new System.EventHandler(this.btnSaveUnit_Click);
             // 
             // chkIsCompound
             // 
@@ -61,7 +46,7 @@
             // 
             // 
             this.chkIsCompound.BackgroundStyle.Class = "";
-            this.chkIsCompound.Location = new System.Drawing.Point(123, 94);
+            this.chkIsCompound.Location = new System.Drawing.Point(99, 85);
             this.chkIsCompound.Name = "chkIsCompound";
             this.chkIsCompound.Size = new System.Drawing.Size(29, 23);
             this.chkIsCompound.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -73,7 +58,7 @@
             // 
             // 
             this.txtDisplayName.Border.Class = "TextBoxBorder";
-            this.txtDisplayName.Location = new System.Drawing.Point(126, 68);
+            this.txtDisplayName.Location = new System.Drawing.Point(102, 59);
             this.txtDisplayName.Name = "txtDisplayName";
             this.txtDisplayName.Size = new System.Drawing.Size(216, 20);
             this.txtDisplayName.TabIndex = 3;
@@ -84,7 +69,7 @@
             this.lblCompound.BackColor = System.Drawing.Color.Transparent;
             this.lblCompound.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCompound.ForeColor = System.Drawing.Color.Black;
-            this.lblCompound.Location = new System.Drawing.Point(29, 99);
+            this.lblCompound.Location = new System.Drawing.Point(5, 90);
             this.lblCompound.Name = "lblCompound";
             this.lblCompound.Size = new System.Drawing.Size(66, 13);
             this.lblCompound.TabIndex = 6;
@@ -96,7 +81,7 @@
             this.lblUnitName.BackColor = System.Drawing.Color.Transparent;
             this.lblUnitName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitName.ForeColor = System.Drawing.Color.Black;
-            this.lblUnitName.Location = new System.Drawing.Point(27, 44);
+            this.lblUnitName.Location = new System.Drawing.Point(3, 35);
             this.lblUnitName.Name = "lblUnitName";
             this.lblUnitName.Size = new System.Drawing.Size(39, 13);
             this.lblUnitName.TabIndex = 2;
@@ -108,7 +93,7 @@
             // 
             // 
             this.txtUnitName.Border.Class = "TextBoxBorder";
-            this.txtUnitName.Location = new System.Drawing.Point(126, 42);
+            this.txtUnitName.Location = new System.Drawing.Point(102, 33);
             this.txtUnitName.Name = "txtUnitName";
             this.txtUnitName.Size = new System.Drawing.Size(216, 20);
             this.txtUnitName.TabIndex = 2;
@@ -119,7 +104,7 @@
             this.lblDisplayName.BackColor = System.Drawing.Color.Transparent;
             this.lblDisplayName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplayName.ForeColor = System.Drawing.Color.Black;
-            this.lblDisplayName.Location = new System.Drawing.Point(27, 70);
+            this.lblDisplayName.Location = new System.Drawing.Point(3, 61);
             this.lblDisplayName.Name = "lblDisplayName";
             this.lblDisplayName.Size = new System.Drawing.Size(84, 13);
             this.lblDisplayName.TabIndex = 4;
@@ -131,7 +116,7 @@
             this.lblUnitID.BackColor = System.Drawing.Color.Transparent;
             this.lblUnitID.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnitID.ForeColor = System.Drawing.Color.Black;
-            this.lblUnitID.Location = new System.Drawing.Point(27, 18);
+            this.lblUnitID.Location = new System.Drawing.Point(3, 9);
             this.lblUnitID.Name = "lblUnitID";
             this.lblUnitID.Size = new System.Drawing.Size(20, 13);
             this.lblUnitID.TabIndex = 2;
@@ -144,16 +129,31 @@
             // 
             this.txtUnitID.Border.Class = "TextBoxBorder";
             this.txtUnitID.Enabled = false;
-            this.txtUnitID.Location = new System.Drawing.Point(126, 16);
+            this.txtUnitID.Location = new System.Drawing.Point(102, 7);
             this.txtUnitID.Name = "txtUnitID";
             this.txtUnitID.Size = new System.Drawing.Size(216, 20);
             this.txtUnitID.TabIndex = 1;
+            // 
+            // btnSaveUnit
+            // 
+            this.btnSaveUnit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSaveUnit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSaveUnit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSaveUnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveUnit.Location = new System.Drawing.Point(243, 114);
+            this.btnSaveUnit.Name = "btnSaveUnit";
+            this.btnSaveUnit.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveUnit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSaveUnit.TabIndex = 5;
+            this.btnSaveUnit.Text = "Save";
+            this.btnSaveUnit.ThemeAware = true;
+            this.btnSaveUnit.Click += new System.EventHandler(this.btnSaveUnit_Click);
             // 
             // UnitsMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 181);
+            this.ClientSize = new System.Drawing.Size(325, 143);
             this.Controls.Add(this.btnSaveUnit);
             this.Controls.Add(this.chkIsCompound);
             this.Controls.Add(this.txtDisplayName);

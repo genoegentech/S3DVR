@@ -123,6 +123,9 @@
     <EmbeddedResource Include="UserControls\TextInputControl.resx">
       <DependentUpon>TextInputControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\S3DVRFormBase.resx">
+      <DependentUpon>S3DVRFormBase.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
